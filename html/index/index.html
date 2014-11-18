@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>HelloSeaJS</title>
+</head>
+<body>
+	<section id="hello-seajs">hello world</section>
+	<button id="test">test</button>
+
+	<script src="../../sea-modules/seajs/seajs/2.2.1/sea.js" id="seajsnode"></script>
+	<script src="../../seajs-config.js" id="seajsnode"></script>
+	<script>
+	seajs.use((seajs.ISDEV ? "../../" : "")+"src/index/index.js");
+	</script>
+</body>
+</html>
