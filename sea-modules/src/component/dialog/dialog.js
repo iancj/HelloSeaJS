@@ -1,0 +1,1 @@
+define("src/component/dialog/dialog",["seajs/seajs-css/1.0.4/seajs-css.js"],function(a,b){a("seajs/seajs-css/1.0.4/seajs-css.js");seajs.use((seajs.ISDEV?"../../":"")+"src/component/dialog/dialog.css"),b.show=function(){alert("假装我是dialog")}});

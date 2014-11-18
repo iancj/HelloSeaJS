@@ -3,15 +3,21 @@
 <head>
 	<meta charset="UTF-8">
 	<title>HelloSeaJS</title>
+	<link rel="stylesheet" href="../../src/css/reset.css">
+	<link rel="stylesheet" href="../../src/css/index/index.css">
 </head>
 <body>
 	<section id="hello-seajs">hello world</section>
 	<button id="test">test</button>
+	<section class="img img1"></section>
+	<section class="img img2"></section>
+	<section class="img img3"></section>
 
-	<script src="../../sea-modules/seajs/seajs/2.2.1/sea.js" id="seajsnode"></script>
-	<script src="../../seajs-config.js" id="seajsnode"></script>
+	<script src="../../sea-modules/seajs/seajs/2.3.0/sea.js" id="seajsnode"></script>
+	<script src="../../sea-modules/seajs/seajs-css/1.0.4/seajs-css.js"></script>
+	<script src="../../seajs-config.js"></script>
 	<script>
-	seajs.use((seajs.ISDEV ? "../../" : "")+"src/index/index.js");
+	seajs.use((seajs.ISDEV ? "../../" : "")+"src/js/index/index.js");
 	</script>
 </body>
 </html>

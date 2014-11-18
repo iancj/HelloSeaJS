@@ -1,0 +1,10 @@
+body{background: #eee;}
+.img{
+	width:100px;
+	height: 100px;
+	background-size:100px auto;
+}
+
+.img1{background:url(../../images/01.jpg)}
+.img2{background:url(../../images/02.gif)}
+.img3{background:url(../../images/03.png)}

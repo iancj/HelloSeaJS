@@ -1,16 +1,19 @@
 {
-    "name": "helloseajs",
-    "version": "1.0.0",
-    "devDependencies": {
-        "grunt": "~0.4.2",
-        "grunt-cmd-transport": "^0.4.1",
-        "grunt-cmd-concat": "^0.2.7",
-        "grunt-contrib-uglify": "^0.6.0",
-        "grunt-contrib-clean": "^0.6.0"
-    },
-    "spm": {
-        "alias": {
-            "jquery": "jquery/jquery/1.9.1/jquery.js"
-        }
+  "name": "helloseajs",
+  "version": "1.0.0",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-cmd-transport": "^0.4.1",
+    "grunt-cmd-concat": "^0.2.7",
+    "grunt-contrib-uglify": "^0.6.0",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-cssmin": "^0.10.0",
+    "grunt-contrib-imagemin": "^0.9.2"
+  },
+  "spm": {
+    "alias": {
+      "jquery": "jquery/jquery/1.9.1/jquery.js",
+      "LoadCss": "seajs/seajs-css/1.0.4/seajs-css.js"
     }
+  }
 }
