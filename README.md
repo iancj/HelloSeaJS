@@ -1,5 +1,4 @@
 #HelloSeaJS
-项目使用seajs开发，构建解决方案
 
 ####文件目录
 
@@ -32,5 +31,7 @@
 		|-- seajs-config.js..............................seajs配置文件
 
 
-* 将alias配置进了package.json里面,方便Gruntfile调用。（或者以后会改成用spm进行构建）
-* seajs-config.js里设置了一个 `ISDEV` 变量，用来控制本地和线上启用不同的代码
+* sea-modules里的标准模块通过spm安装，src目录是构建打包后的线上代码。
+* 打包内容包含了src源码目录中的通用组件模块、业务模块、所有图片
+* 将alias配置进了package.json里面,方便Gruntfile调用。
+* seajs-config.js里设置了一个 `ISDEV` 变量，代表是否处于开发环境，通过这个开关可以很好的控制网站是否启用构建打包后的资源
